@@ -3,7 +3,7 @@ dist/
 .output/
 
 # dependencies
-node_modules/
+**/node_modules/**
 
 # logs
 npm-debug.log*
@@ -23,3 +23,6 @@ pnpm-debug.log*
 *.pem
 .cache
 .astro
+
+# Local Netlify folder
+.netlify
